@@ -13,6 +13,6 @@ public class WebHookController {
 
     @GetMapping("/location")
     public String getLocation(){
-        return "The Republic of India";
+        return "The Republic of India.";
     }
 }
