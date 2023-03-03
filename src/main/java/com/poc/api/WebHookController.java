@@ -8,7 +8,7 @@ public class WebHookController {
 
     @GetMapping("/response")
     public String getResponse(){
-        return "Hello Dear :) How are you?";
+        return "Hello Dear :) How are you :D";
     }
 
     @GetMapping("/location")
